@@ -21,7 +21,7 @@ function App() {
   //   }
   //const params = new URLSearchParams(window.location.pathname);
   //console.log(params.token)
-  //alert(id)
+  alert(id)
   if(typeof(id)!='undefined' && id!=null && id!=""){
     setToken(id);
   }else{
