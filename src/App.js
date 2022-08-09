@@ -21,12 +21,13 @@ function App() {
   //   }
   //const params = new URLSearchParams(window.location.pathname);
   //console.log(params.token)
-  alert(id)
-  // if(typeof(id)!='undefined' && id!=null && id!=""){
-  //   setToken(id);
-  // }else{
-  //   redirect("https://login-three-gamma.vercel.app/cookie/client1-awipkz2oo-kalpanchatterjee.vercel.app");
-  // }
+  //alert(id)
+  if(typeof(id)!='undefined' && id!=null && id!=""){
+    alert("id"+id);
+    setToken(id);
+  }else{
+    redirect("https://login-three-gamma.vercel.app/cookie/client1-awipkz2oo-kalpanchatterjee.vercel.app");
+  }
     // axios.get("http://localhost:3000").then(res=>{
     //   console.log(res.headers);
     // })
