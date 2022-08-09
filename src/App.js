@@ -26,6 +26,7 @@ function App() {
     alert("id"+id);
     setToken(id);
   }else{
+    alert("here");
     redirect("https://login-three-gamma.vercel.app/cookie/client1-awipkz2oo-kalpanchatterjee.vercel.app");
   }
     // axios.get("http://localhost:3000").then(res=>{
