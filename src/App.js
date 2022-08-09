@@ -21,10 +21,10 @@ function App() {
   //   }
   //const params = new URLSearchParams(window.location.pathname);
   //console.log(params.token)
-  //alert(id)
+  alert("here"+id)
   if(typeof(id)!='undefined' && id!=null && id!=""){
-    alert("id"+id);
-    setToken(id);
+    //alert("id"+id);
+    //setToken(id);
   }else{
     alert("here");
     redirect("https://login-three-gamma.vercel.app/cookie/client1-awipkz2oo-kalpanchatterjee.vercel.app");
